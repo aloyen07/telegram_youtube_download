@@ -16,7 +16,7 @@ TOKEN = "TOKEN"
 
 bot = telebot.TeleBot(TOKEN)
 
-dump_directory = os.path.join(os.getcwd(), 'mp3')
+dump_directory = os.path.join(os.getcwd(), 'temp-telegram-youtube')
 os.makedirs(dump_directory, exist_ok=True)
 
 bug_users = []
