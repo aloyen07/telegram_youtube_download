@@ -3,18 +3,18 @@
 
 ## Инициализация
 Установите библиотеки `pytube` `telebot`.
-```
-pip3 install pytube telebot```
+
+```pip3 install pytube telebot```
 
 В файле `telebot_youtube.py` в значении `TOKEN` подставьте свой токен (после импортов).
 
 Запустите бота командой:
-```
-python3 ./telebot_youtube.py```
+
+```python3 ./telebot_youtube.py```
 
 В Windows:
-```
-py ./telebot_youtube.py```
+
+```py ./telebot_youtube.py```
 
 ### Использование
 Пришлите боту сообщение в формате `[ссылка] & [разрешение]`
